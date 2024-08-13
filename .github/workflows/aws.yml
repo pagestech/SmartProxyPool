@@ -31,7 +31,7 @@ on:
     branches: [ "master" ]
 
 env:
-  AWS_REGION: redis-12598.c277.us-east-1-3.ec2.redns.redis-cloud.com                   # set this to your preferred AWS region, e.g. us-west-1
+  AWS_REGION: us-east-1-3.ec2.redns.redis-cloud.com                   # set this to your preferred AWS region, e.g. us-west-1
   ECR_REPOSITORY: https://app.redislabs.com/#/subscriptions/subscription/2392746/bdb           # set this to your Amazon ECR repository name
   ECS_SERVICE: app.redislabs.com                 # set this to your Amazon ECS service name
   ECS_CLUSTER: MY_ECS_CLUSTER                 # set this to your Amazon ECS cluster name
