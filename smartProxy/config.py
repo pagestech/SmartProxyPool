@@ -16,13 +16,13 @@ API_PORT = 5000                 ##### Flask Configuration
 TEST_URL = 'http://www.baidu.com'     ##### Aim Website you want to crawler
 
 # Redis Database locstion
-REDIS_HOST = '127.0.0.1'         ###### Support Your Remote Redis Database
+REDIS_HOST = '54.221.159.173'         ###### Support Your Remote Redis Database
 
 # Redis port
-REDIS_PORT = 6379
+REDIS_PORT = 12598
 
 # Redis password，default = None
-REDIS_PASSWORD = "YourPassword"         ##### Change to Your Redis Password
+REDIS_PASSWORD = "O1DazWvHGDVa7DTW3cG6dixyFcmQsZeE"         ##### Change to Your Redis Password
 REDIS_KEY = 'proxies'
 
 # selection initial ruler
@@ -43,4 +43,4 @@ VALID_STATUS_CODES = [200, 302]
 BATCH_TEST_SIZE = 10
 
 # baiduMap AK
-AK = "YourAK"  #### Change to your Baidu Map API AK
+AK = "1nnbs7op4ocsr68143oamrjq9c4eoin2"  #### Change to your Baidu Map API AK
